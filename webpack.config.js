@@ -5,6 +5,10 @@ const copyWebpackPlugin= require('copy-webpack-plugin');
 
 module.exports = {
     mode: 'development',
+
+    output:{
+        clean:true,
+    },
     module: {
         rules: [
             {
